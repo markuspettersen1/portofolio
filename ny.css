@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    font-family: montserrat, helvetica, arial, sans-serif;
+    line-height: 150%
+}
+a {
+   font-family: montserrat, helvetica, arial, sans-serif; 
+    font-size: 15px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    margin: 1%;
+}
+.en {
+    display: grid;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    align-items: center;
+}
+.en img {
+    max-width: 40px; 
+    
+}
+.to {
+    display: flex;
+    grid-row: 1/2;
+    grid-column: 2/12;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.to a {
+    margin-right: 55px;
+    color: #333;
+    text-decoration: none;
+    
+}
+.to a:hover {
+    color: darkseagreen;
+}
+/*Contact*/
+.hole{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    grid-row: 3/4;
+    grid-column: 1/13;
+    font-family: montserrat, helvetica, arial, sans-serif;
+    color: #333;
+   
+    
+    
+    
+}
+.contact-form {
+    width: 85%;
+    max-width: 800px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: montserrat, helvetica, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+.txtb {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    
+}
+.txtb label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input, .txtb textarea {
+    width: 100%;
+    order: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.btn {
+    display: inline-block;
+    background: #ff9900;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%
+}
+.footer {
+    display: flex;
+    grid-row: 10/11;
+    grid-column: 1/13;
+    text-align: center;
+    justify-content: center;
+    align-items:baseline;
+}
+
+/*About*/
+.head {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 1%;
+}
+.active {
+    text-decoration: underline;
+}
+.innhold-about {
+    font-family: montserrat, helvetica, arial, sans-serif;
+    grid-column: 1/13;;
+    grid-row: 5/6;
+    line-height: 150%;
+    display: grid;
+    text-align: center;
+    margin-top: -100px;
+    
+}
+.innhold-about p {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.meg-about {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.info-about {
+    width: 900px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.info-about {
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+.infotekst-about {
+    color: #ff8000;
+    text-align: center;
+}
+.cv img {
+    width: 100%;
+    background-size: cover;
+    
+}
+.services {
+    grid-row: 7/7;
+    grid-column: 1/13;
+    margin-top: 100px;
+    text-align: center;
+    font-family: montserrat, helvetica, arial, sans-serif;
+}
+.overskrift h1 {
+    color: #333;
+    font-size: 25px;
+}
+.ferdigheter {
+    display: flex;
+    grid-row: 8/8;
+    grid-column: 2/12;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.ferdigheter p {
+    margin: 10px;
+}
+h4 {
+    font-family: montserrat, helvetica, arial, sans-serif;
+    color: #ff8000; 
+    margin: 1px;
+}
+
+.footer {
+    grid-column: 1/13;
+    grid-row: 10/10;
+    text-align: center;
+    align-items: center;
+    font-family: montserrat, helvetica, arial, sans-serif;
+}
+.drittbox {
+    display: flex;
+    justify-content: center;
+}
+
+.infomeg {
+    display: flex;
+    grid-row: 5/5;
+    grid-column: 1/13;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+
+.container-case {
+    padding: 10%;
+    flex: 1 1 %;
+    min-height: 100vh;
+    margin-top: -500px;
+    
+}
+.innhold-case {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 20px;
+    height: 900px;
+}
+
+.innhold-item {
+    background: #c13030;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+    padding: 5px;
+    
+}
+.innhold-item.small {
+    grid-row: span 1;
+    grid-column: span 1;
+    align-items: flex-end;
+    padding: 5px;
+    
+}
+.innhold-item.medium {
+    grid-row: span 2;
+    grid-column: span 2;
+    align-items: flex-end;
+    padding: 5px;
+    
+}
+.innhold-item.large {
+    grid-row: span 3;
+    grid-column: span 3;
+    align-items: flex-end;
+    padding: 5px;
+    
+}
+.innhold-item.tall {
+    grid-row: span 3;
+    grid-column: span 2;
+    align-items: flex-end;
+    padding: 5px;
+    
+}
+.innhold-item.wide {
+    grid-row: span 2;
+    grid-column: span 3;
+    align-items: flex-end;
+    padding: 5px;}
+
+.one {
+    background-image: url(delta.jpg);
+    background-color: #adabab;
+    background-blend-mode: multiply;
+    background-size:300px;
+    background-position:center;
+    transition: all ease-in-out 300ms;
+    color: white;
+    
+}
+.one:hover {
+    background-blend-mode: initial;
+    background-color: none;
+    background-position:top;
+}
+.too {
+    background-image: url(Innlevering);
+    background-size: cover;
+    color: white;
+    background-color: #adabab;
+    background-blend-mode: multiply;
+    background-position: center;
+    transition: 
+}
+.too:hover {
+   background-blend-mode: initial;
+    background-color: none;
+    background-position:top;
+} 
+
+.three {
+    background-image: url(skoleinnlevering.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #adabab;
+    background-blend-mode: multiply;
+    color: white;
+    transition: all ease-in-out 300ms;
+    
+}
+.three:hover {
+    background-blend-mode: initial;
+    background-color: none;
+    background-position:top;
+}
+.four {
+    background-image: url(inspire.jpg);
+    background-size: cover;
+    background-color: #adabab;
+    background-blend-mode: multiply;
+    color: white;
+    transition: all ease-in-out 300ms;
+}
+.four:hover{
+    background-blend-mode: initial;
+    background-color: none;
+    background-position:top;
+}
+.five {
+    background-image: url(fugl.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: #adabab;
+    background-blend-mode: multiply;
+    transition: all ease-in-out 300ms;
+}
+.five:hover{
+    background-blend-mode: initial;
+    background-color: none;
+    background-size: auto;
+}
+.six {
+    background-image: url(clock.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #adabab;
+    background-blend-mode: multiply;
+    color: white;
+    transition: all ease-in-out 300ms;
+}
+.six:hover{
+    background-blend-mode: initial;
+    background-color: none;
+    background-position:top;
+}
+.article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -80px;
+    
+}
+.innhold-fremside {
+    margin-top: -430px;
+}
+.textboble {
+    color: #333;
+    margin-top:  -90px;
+    margin-left: 10px;
+    width: 900px;
+}
+
+
+
+      
+        
+        
